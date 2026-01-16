@@ -399,18 +399,19 @@
 </section>
 
 <section class="hero is-small">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">  <!-- max-desktop -> max-widescreen -->
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">            <!-- is-four-fifths -> is-full -->
         <h2 class="title is-3">Real-World Underwater Scenes</h2>
-        <!-- Framework Figure -->
+
         <div class="methodology-figure">
-          <img src="static/images/real-world-uw.png" alt="Qualitative Result" class="framework-image"/>
+          <img src="static/images/real-world-uw.png"
+               alt="Qualitative Result"
+               class="framework-image"/>
           <p class="figure-caption">
             Qualitative results of novel view synthesis on diverse real-world underwater scenes.
           </p>
         </div>
-        
       </div>
     </div>
   </div>
@@ -470,21 +471,28 @@
 <!-- End image carousel -->
 
 <!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
+<section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-widescreen">
       <h2 class="title is-3">Video Presentation</h2>
+
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="column is-full"> 
+          <div class="publication-video is-wide">
+            <iframe
+              src="https://www.youtube.com/embed/AbzxRgnHQhs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
+
     </div>
   </div>
-</section> -->
+</section>
 <!-- End youtube video -->
 
 <!-- Video carousel -->
@@ -530,7 +538,7 @@
 
 
 <!--BibTex citation -->
-  <!-- <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <div class="bibtex-header">
         <h2 class="title">BibTeX</h2>
@@ -542,12 +550,11 @@
       <pre id="bibtex-code"><code>@article{kweon2026oceansplat,
   title={OceanSplat: Object-aware Gaussian Splatting with Trinocular View Consistency for Underwater Scene Reconstruction},
   author={Kweon, Minseong and Park, Jinsun},
-  journal={Proceedings of the AAAI conference on artificial intelligence},
-  year={2026},
-  url={https://mnseong.github.io/oceansplat.github.io}
+  journal={arXiv preprint arXiv:2601.04984},
+  year={2026}
 }</code></pre>
     </div>
-</section> -->
+</section>
 <!--End BibTex citation -->
 
 
