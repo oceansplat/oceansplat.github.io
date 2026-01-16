@@ -382,13 +382,13 @@
 <!-- End paper abstract -->
 
 <section class="hero is-small">
-  <div class="container is-max-desktop">
+  <div class="container is-max-widescreen">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+      <div class="column is-full">
         <h2 class="title is-3">Methodology</h2>
         <!-- Framework Figure -->
         <div class="methodology-figure">
-          <img src="static/images/oceansplat_framework.png" alt="Overall framework of OceanSplat" class="framework-image"/>
+          <img src="static/images/oceansplat_framework.png" alt="Overall framework of OceanSplat" class="framework-image" style="width: 100%; max-width: 1200px;"/>
           <p class="figure-caption">
             <strong>Figure 1: Overview of our OceanSplat.</strong> We enforce trinocular consistency by inverse warping rasterized outputs from two orthogonal views to guide 3D Gaussian placement. From these views, we derive a synthetic epipolar depth prior via triangulation to provide self-supervised geometric constraints. Additionally, depth-aware alpha adjustment suppresses erroneous 3D Gaussians early and aligns rendered depth with the Gaussian z-component to prevent floaters in novel views.
           </p>
